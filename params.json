@@ -1,0 +1,6 @@
+{
+  "name": "Handwritten",
+  "tagline": "Plain text to handwriting generator.",
+  "body": "Handwritten\r\n===========\r\n\r\nHomework could have been so much easier if only it could be submitted as a typed copy.  \r\nUsing Alex Graves' paper on handwriting generation is a step I liked. \r\nThis script uses his amazing paper (actually the free service he has set up online) to\r\ngenerate handwritten homework for given text.\r\n\r\nUsage\r\n-----\r\n\r\n1. Create a plaintext file with no more than 100 chars on each line.(we call it sample.txt)\r\n2. Navigate to the folder with the script.\r\n3. `mkdir images pages`\r\n4. `python get_hand.py sample.txt`\r\n5. `python make_page.py`\r\n\r\n\r\nExample\r\n-------\r\n\r\n![Example of handwriting](example.png)\r\n\r\n\r\nMore Info\r\n---------\r\n\r\n[The paper](http://arxiv.org/abs/1308.0850)  \r\n[The man behind it all. Alex Graves](http://www.cs.toronto.edu/~graves/)  \r\n[What I am using](http://www.cs.toronto.edu/~graves/handwriting.html)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
